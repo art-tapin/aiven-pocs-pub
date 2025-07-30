@@ -1,0 +1,38 @@
+============================================================
+🏁 QUERY BENCHMARKING
+============================================================
+
+🔄 Running Original Query (5 iterations)...
+  Run 1: 106.82ms, 20 rows
+  Run 2: 71.01ms, 20 rows
+  Run 3: 74.37ms, 20 rows
+  Run 4: 76.27ms, 20 rows
+  Run 5: 73.44ms, 20 rows
+
+🔄 Running Optimized Query (5 iterations)...
+  Run 1: 74.38ms, 20 rows
+  Run 2: 72.93ms, 20 rows
+  Run 3: 70.30ms, 20 rows
+  Run 4: 68.02ms, 20 rows
+  Run 5: 71.68ms, 20 rows
+
+============================================================
+📊 BENCHMARK RESULTS
+============================================================
+Metric               Original        Optimized       Improvement    
+-----------------------------------------------------------------
+Avg Time (ms)        80.38           71.46                    +11.1%
+Median Time (ms)     74.37           71.68                     +3.6%
+Min Time (ms)        71.01           68.02                     +4.2%
+Max Time (ms)        106.82          74.38                    +30.4%
+Std Dev (ms)         14.90           2.44                        N/A
+Avg Rows             20.0            20.0                        N/A
+
+============================================================
+🎯 SUMMARY
+============================================================
+✅ AI Insights optimization improved performance by 11.1%
+⏱️  Average time reduced from 80.38ms to 71.46ms
+📊 Results are based on 5 runs each
+============================================================
+🧹 Database connection closed
